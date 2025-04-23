@@ -1,6 +1,17 @@
 新增行
 这是代码块
-这是代码块
+
+``` TypeScript
+  @State message: string = 'Hello World';
+
+  build() {
+    RelativeContainer() {
+      Text(this.message)
+		···
+    }
+    .height('100%')
+    .width('100%')
+```
 这是代码块
 issue关联mr
 222
