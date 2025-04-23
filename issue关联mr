@@ -14,7 +14,12 @@
 ```
 这是代码块
 issue关联mr
-222改动
+```python
+def generate_matrix(issue_data):
+    issue_title = issue_data.get("title", "Unknown Issue")
+    issue_states = issue_data.get("issue_states", [])
+    relations = issue_data.get("relations", [])
+```
 344543
 sdgfds
 dfsgdf
